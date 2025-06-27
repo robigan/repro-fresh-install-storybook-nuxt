@@ -7,7 +7,9 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@nuxt/image": "1.10.0",
@@ -17,5 +19,13 @@
     "vue": "^3.5.17",
     "vue-router": "^4.5.1"
   },
-  "packageManager": "yarn@4.9.2+sha512.1fc009bc09d13cfd0e19efa44cbfc2b9cf6ca61482725eb35bbc5e257e093ebf4130db6dfe15d604ff4b79efd8e1e8e99b25fa7d0a6197c9f9826358d4d65c3c"
+  "packageManager": "yarn@4.9.2+sha512.1fc009bc09d13cfd0e19efa44cbfc2b9cf6ca61482725eb35bbc5e257e093ebf4130db6dfe15d604ff4b79efd8e1e8e99b25fa7d0a6197c9f9826358d4d65c3c",
+  "devDependencies": {
+    "@chromatic-com/storybook": "^4.0.1",
+    "@nuxtjs/storybook": "^8.4.1",
+    "@storybook/addon-a11y": "^9.0.13",
+    "@storybook/addon-docs": "^9.0.13",
+    "@storybook/addon-vitest": "^9.0.13",
+    "storybook": "^9.0.13"
+  }
 }
